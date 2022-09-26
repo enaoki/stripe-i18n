@@ -59,6 +59,9 @@ rescue Stripe::CardError => e
 end
 ```
 
+## Testing
+    $ rspec --drb
+
 ## Contributing
 
 1. Fork it ( https://github.com/ekosz/stripe-i18n/fork )
